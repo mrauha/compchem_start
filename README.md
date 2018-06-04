@@ -100,18 +100,45 @@ $H\Psi = E\Psi$
 ## Scripting and working with data
 
 ### Python
-  * Best choice!
-  * Rich and modern environment
-  * Excellent data science stack, useful libraries:
-    * Numpy: linear algebra calculations and much more
-    * SciPy: special functions, integrals, a lot of numerical tools
-    * Matplotlib: plotting, excellent for visualizations
-    * Pandas: "excel", data structures, good for data manipulation, analysis
-    * Scikit-learn: Machine learning, regression, statistics
-    * Keras, tensorflow: Deep learning, probably not needed yet
+  * Best choice in my opinion!
+    * I use it for everything: scientific computing, workflow automation, web development, deep learning, home automation...
+    * One of the most popular languages
+      * Excellent resources available!
+    * Slow for number crunching
+      * Can be used as front-end for C, Fortran through libraries
 
-  * Jupyter Notebooks
-    * Nice graphical user interface
+#### [Notebooks](https://jupyter.org/)
+
+* Jupyter Notebooks: Very nice graphical user interface
+* Each notebook consists of cells
+  * May contain code, markdown text, latex
+  * Can be run separately
+* Inline plotting
+* Can be shared
+
+
+#### Excellent data science stack, useful libraries:
+
+* [Numpy](https://docs.scipy.org/doc/numpy-1.14.0/reference/)
+  * linear algebra calculations and much more
+
+* [SciPy](https://docs.scipy.org/doc/scipy/reference/)
+  * special functions, integrals, a lot of numerical tools
+
+* [Matplotlib](https://matplotlib.org/index.html)
+  * plotting, excellent for visualizations
+*[Pandas](https://pandas.pydata.org/pandas-docs/version/0.22.0/10min.html)
+  * "excel", data structures, good for data manipulation, analysis
+
+* [Scikit-learn](http://scikit-learn.org/)
+  * Machine learning, regression, statistics
+
+* [Keras](https://keras.io/), [tensorflow](https://www.tensorflow.org/)
+  * Deep learning, cool stuff
+
+
+
+
 
 ### Bash tools
   * sed
