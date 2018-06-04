@@ -22,10 +22,15 @@ List of abbreviations:
 ### General
 
 * [Szabo, Ostlund: Modern Quantum Chemistry](https://www.amazon.com/Modern-Quantum-Chemistry-Introduction-Electronic/dp/0486691861)
+  * Quite dense
 * [Jensen: Introduction to Computational Chemistry](https://www.amazon.com/Introduction-Computational-Chemistry-Frank-Jensen/dp/1118825993/ref=dp_ob_image_bk)
+  * Accessible
 * [Bachrach: Computational Organic Chemistry](https://www.amazon.com/Computational-Organic-Chemistry-Steven-Bachrach/dp/1118291921/ref=dp_ob_title_bk)
+  * Nice examples, easy to read
 * [Cramer: Essential of Computational Chemistry](https://www.amazon.com/Essentials-Computational-Chemistry-Theories-Models/dp/0470091827)
+  * Nice explanations, accessible
 * [Helgaker, Jorgensen, Olsen: Molecular Electronic-Structure Theory](https://www.amazon.com/Molecular-Electronic-Structure-Theory-Trygve-Helgaker/dp/0470017600/ref=dp_ob_title_bk)
+  * Very dense, a reference book
 
 ### DFT
 * [Koch, Holthausen: A Chemist's Guide to Density Functional Theory ](https://www.amazon.com/Chemists-Guide-Density-Functional-Theory/dp/3527303723)
@@ -33,8 +38,36 @@ List of abbreviations:
 ### Other
 * [Reiher: Relativistic Quantum Chemistry](https://www.amazon.com/Relativistic-Quantum-Chemistry-Fundamental-Molecular/dp/3527334157)
 * [Berendsen: Simulating the Physical World](https://www.amazon.com/Simulating-Physical-World-Hierarchical-Mechanics/dp/0521835275)
+  * Simulating materials, describes different models needed for different scales very well
 
 # Working with remote clusters
+
+* All the heavy computational work is done on remote computers
+* All these computers run on linux
+  * DigitalOcean (provides virtual private servers for websites etc) has good tutorials: [link](https://www.digitalocean.com/community/tutorials/)
+  * Terminal basics
+    * Learn to use shell efficiently
+      * mkdir, mv, cp, ls, pwd, ...
+    * [Basic Linux Navigation and File Management](https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management)
+  * Connect with ssh if you use linux/mac, with [putty](https://putty.org/) etc on Windows
+    * [Tutorial ](https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys)
+  * Copying files done with SCP
+    * [Tutorial](https://www.digitalocean.com/community/questions/how-to-copy-files-from-one-server-to-another-droplet)
+
+## CSC
+* The calculations require a lot of resources
+* [CSC](https://research.csc.fi/guides) provides computational resources for us
+  * Taito supercluster
+  * Sisu supercomputer
+* A lot of chemistry software preinstalled
+  * [Listed here](https://research.csc.fi/software?p_p_id=122&p_r_p_564233524_categoryId=53920)
+* Access to [several databases](https://research.csc.fi/chemistry/databases)
+  * [Cambridge Structural Database System](https://research.csc.fi/-/csd)
+    * X-ray structures of molecules, useful toolkits for searching structures
+    * Web interface [WebCSD](https://www.ccdc.cam.ac.uk/structures/)
+      * Search with DOI etc
+      * The .cif files can be opened with avogadro, chemcraft, ...
+
 
 # Used methods
 
