@@ -25,12 +25,14 @@ List of abbreviations:
 * [Jensen: Introduction to Computational Chemistry](https://www.amazon.com/Introduction-Computational-Chemistry-Frank-Jensen/dp/1118825993/ref=dp_ob_image_bk)
 * [Bachrach: Computational Organic Chemistry](https://www.amazon.com/Computational-Organic-Chemistry-Steven-Bachrach/dp/1118291921/ref=dp_ob_title_bk)
 * [Cramer: Essential of Computational Chemistry](https://www.amazon.com/Essentials-Computational-Chemistry-Theories-Models/dp/0470091827)
+* [Helgaker, Jorgensen, Olsen: Molecular Electronic-Structure Theory](https://www.amazon.com/Molecular-Electronic-Structure-Theory-Trygve-Helgaker/dp/0470017600/ref=dp_ob_title_bk)
 
 ### DFT
 * [Koch, Holthausen: A Chemist's Guide to Density Functional Theory ](https://www.amazon.com/Chemists-Guide-Density-Functional-Theory/dp/3527303723)
 
 ### Other
-* [Reiher: ](https://www.amazon.com/Relativistic-Quantum-Chemistry-Fundamental-Molecular/dp/3527334157)
+* [Reiher: Relativistic Quantum Chemistry](https://www.amazon.com/Relativistic-Quantum-Chemistry-Fundamental-Molecular/dp/3527334157)
+* [Berendsen: Simulating the Physical World](https://www.amazon.com/Simulating-Physical-World-Hierarchical-Mechanics/dp/0521835275)
 
 # Working with remote clusters
 
