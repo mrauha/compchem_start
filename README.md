@@ -13,6 +13,25 @@ List of abbreviations:
 
 # Books and lecture notes
 
+## Quantum chemistry
+* [Atkins: Molecular Quantum Mechanics](https://www.amazon.com/Molecular-Quantum-Mechanics-Peter-Atkins/dp/0199541426)
+* [Piela: Ideas of Quantum Chemistry](https://www.amazon.com/Ideas-Quantum-Chemistry-Lucjan-Piela/dp/0444522271)
+
+## Computational chemistry
+
+### General
+
+* [Szabo, Ostlund: Modern Quantum Chemistry](https://www.amazon.com/Modern-Quantum-Chemistry-Introduction-Electronic/dp/0486691861)
+* [Jensen: Introduction to Computational Chemistry](https://www.amazon.com/Introduction-Computational-Chemistry-Frank-Jensen/dp/1118825993/ref=dp_ob_image_bk)
+* [Bachrach: Computational Organic Chemistry](https://www.amazon.com/Computational-Organic-Chemistry-Steven-Bachrach/dp/1118291921/ref=dp_ob_title_bk)
+* [Cramer: Essential of Computational Chemistry](https://www.amazon.com/Essentials-Computational-Chemistry-Theories-Models/dp/0470091827)
+
+### DFT
+* [Koch, Holthausen: A Chemist's Guide to Density Functional Theory ](https://www.amazon.com/Chemists-Guide-Density-Functional-Theory/dp/3527303723)
+
+### Other
+* [Reiher: ](https://www.amazon.com/Relativistic-Quantum-Chemistry-Fundamental-Molecular/dp/3527334157)
+
 # Working with remote clusters
 
 # Used methods
@@ -100,12 +119,18 @@ $H\Psi = E\Psi$
 ## Scripting and working with data
 
 ### Python
-  * Best choice in my opinion!
-    * I use it for everything: scientific computing, workflow automation, web development, deep learning, home automation...
-    * One of the most popular languages
-      * Excellent resources available!
-    * Slow for number crunching
-      * Can be used as front-end for C, Fortran through libraries
+* Best choice in my opinion!
+  * I use it for everything: scientific computing, workflow automation, web development, deep learning, home automation...
+  * One of the most popular languages
+    * Excellent resources available!
+  * Slow for number crunching
+    * Can be used as front-end for C, Fortran through libraries
+* So many resources!
+  * Programming intros
+    * [How to Think Like a Computer Scientist](https://interactivepython.org/runestone/static/thinkcspy/index.html)
+    * [Think Python](https://greenteapress.com/wp/think-python-2e/), OK book
+  * [Full stack python](https://www.fullstackpython.com/table-of-contents.html)
+  * [/r/python](https://old.reddit.com/r/Python/) subreddit, check the side panel!
 
 #### [Notebooks](https://jupyter.org/)
 
@@ -115,6 +140,7 @@ $H\Psi = E\Psi$
   * Can be run separately
 * Inline plotting
 * Can be shared
+* See Johansson's [Scientific python lectures](https://github.com/jrjohansson/scientific-python-lectures), excellent intro to python, notebooks, the scientific stack
 
 
 #### Excellent data science stack, useful libraries:
