@@ -45,33 +45,56 @@ $H\Psi = E\Psi$
 
 * [ORCA](https://orcaforum.cec.mpg.de/)
   * [On CSC](https://research.csc.fi/software-details/-/asset_publisher/bwNv9EAV4eYX/content/orca)
+  * Active community, good forum
+  * [ORCA input library](https://sites.google.com/site/orcainputlibrary/) is *amazing*. Easy to get started with this!
+  * Free for scientists! :)
+  * Good for spectroscopy
+  * DLPNO-CCSD(T) method!
 
 * [Turbomole](http://www.turbomole.com/)
   * [On CSC](https://research.csc.fi/-/turbomole?redirect=https%3A%2F%2Fresearch.csc.fi%2Fsoftware%3Fp_p_id%3D101_INSTANCE_wfvLxzjnZlJx%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_pos%3D1%26p_p_col_count%3D4%26p_r_p_564233524_categoryId%3D61753%26p_r_p_564233524_resetCur%3Dtrue)
+  * Fast!
+  * No typical input files
+    * Jobs are set up using the interactive define-script
+      * Not very user friendly, must be scripted away when running large-scale calculations
 
 * [Gaussian](http://gaussian.com/)
   * [On CSC](https://research.csc.fi/software-details/-/asset_publisher/bwNv9EAV4eYX/content/gaussian)
 
 * [NWChem](http://www.nwchem-sw.org/index.php/Main_Page)
   * [On CSC](https://research.csc.fi/software-details/-/asset_publisher/bwNv9EAV4eYX/content/nwchem?redirect=https%3A%2F%2Fresearch.csc.fi%2Fsoftware-details%3Fp_p_id%3D101_INSTANCE_bwNv9EAV4eYX%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_count%3D1)
+  * Open-source! :)
+  * Good for LARGE problems, scales to thousands of processors
 
 
-## Molecular dynamics simulations
+## Molecular dynamics
 
 * [GROMACS](http://www.gromacs.org/)
+  * The manual is a good intro to MD!
 
-## Visualization
+## Visualization and
+
 * [Avogadro](https://avogadro.cc/)
   * Open source, quite powerful
   * Best tool for building molecules, UFF force field for preoptimization
   * Conformation search
   * Visualization of orbitals, vibrations, Bader analysis, ...
+
 * [VMD](http://www.ks.uiuc.edu/Research/vmd/)
   * Excellent and scriptable program, heavily used in MD field
 
 * [Chemcraft](https://www.chemcraftprog.com/)
   * Good for many manipulations, visualization
   * Not free, 150 days free trial period
+
+## Wavefunction analysis
+  * [MultiWFN](http://sobereva.com/multiwfn/)
+    * Excellent tool for wave function analysis
+    * Pretty much everything is implemented
+    * Takes as an input eg. a molden-file
+  * [NCIPlot](http://www.lct.jussieu.fr/pagesperso/contrera/nciplot.html)
+    * Visual analysis of weak interactions
+
 
 
 ## Scripting and working with data
