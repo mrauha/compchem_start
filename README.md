@@ -67,6 +67,19 @@ List of abbreviations:
     * Web interface [WebCSD](https://www.ccdc.cam.ac.uk/structures/)
       * Search with DOI etc
       * The .cif files can be opened with avogadro, chemcraft, ...
+## Resource allocation
+  * Clusters have a lot of users, workload manager is used to allocate resources
+  * Define the resources you need
+    * Amount of cores, memory, time, ...
+  * [SLURM](https://slurm.schedmd.com/) workload manager is used in our environments
+    * Batch job file
+      * Used to define the calculation
+        * Resources and software needed
+    * [CSCs tutorial](https://research.csc.fi/taito-constructing-a-batch-job-file)
+    * Here's another[ tutorial](https://github.com/abalter/slurm-tutorial/wiki/slurm-tutorial)
+
+
+
 
 
 # Used methods
@@ -81,6 +94,22 @@ $H\Psi = E\Psi$
 * Electron correlation
 * DFT
   * Functionals
+
+## Workflow
+1) Build the molecule with some visual tool (see below)
+  * [xyz file format](https://en.wikipedia.org/wiki/XYZ_file_format)
+2) Create an input file
+  * Each QC program has their own
+3) Send the job to queue
+4) Check results
+  * Errors are usually due to
+    * faulty input file
+    * not enough resources, such as time, memory
+    * convergence problems
+      * several ways to proceed, see Jensen's book
+5) Collect and analyze results
+  * Spreadsheets, Python, ...
+
 
 ## Molecular dynamics
 * Classical simulations
@@ -214,7 +243,8 @@ $H\Psi = E\Psi$
   * [CDK](https://cdk.github.io/)
     * Apparently quite good, in Java
 #### Data structures for molecules
-  * For storing, searching, ... [SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)
+  * For storing, searching, ...
+  * [SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)
   * [SMARTS](https://en.wikipedia.org/wiki/Smiles_arbitrary_target_specification)
   * [InCHL](https://en.wikipedia.org/wiki/International_Chemical_Identifier)
 
