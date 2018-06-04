@@ -1,5 +1,10 @@
 # Computational chemistry - how to get started
 
+This document has resources for people new to computational quantum chemistry. Mainly directed for people starting at [our lab](https://blogs.helsinki.fi/johansson-group/).
+
+This list is currently quite rough looking, I'm constantly making updates :)
+
+
 List of abbreviations:
   * DFT - Density functional theory
   * QC - Quantum chemistry
@@ -15,6 +20,17 @@ List of abbreviations:
 
 ### Quantum chemistry
 
+* [ORCA](https://orcaforum.cec.mpg.de/)
+  * [On CSC](https://research.csc.fi/software-details/-/asset_publisher/bwNv9EAV4eYX/content/orca)
+
+* [Turbomole](http://www.turbomole.com/)
+  * [On CSC](https://research.csc.fi/-/turbomole?redirect=https%3A%2F%2Fresearch.csc.fi%2Fsoftware%3Fp_p_id%3D101_INSTANCE_wfvLxzjnZlJx%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_pos%3D1%26p_p_col_count%3D4%26p_r_p_564233524_categoryId%3D61753%26p_r_p_564233524_resetCur%3Dtrue)
+
+* [Gaussian](http://gaussian.com/)
+  * [On CSC](https://research.csc.fi/software-details/-/asset_publisher/bwNv9EAV4eYX/content/gaussian)
+
+* [NWChem](http://www.nwchem-sw.org/index.php/Main_Page)
+  * [On CSC](https://research.csc.fi/software-details/-/asset_publisher/bwNv9EAV4eYX/content/nwchem?redirect=https%3A%2F%2Fresearch.csc.fi%2Fsoftware-details%3Fp_p_id%3D101_INSTANCE_bwNv9EAV4eYX%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_count%3D1)
 
 
 ### Molecular dynamics simulations
@@ -27,9 +43,11 @@ List of abbreviations:
 * GROMACS
 
 ### Visualization
-
-* Avogadro
-  *
+* [Avogadro](https://avogadro.cc/)
+  * Open source, quite powerful
+  * Best tool for building molecules, UFF force field for preoptimization
+  * Conformation search
+  * Visualization of orbitals, vibrations, Bader analysis, ...
 * Chemcraft - 150 days free license
 
 ### Scripting and working with data
